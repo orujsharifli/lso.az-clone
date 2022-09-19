@@ -1,0 +1,40 @@
+/* X-Small */
+@media (min-width:0px) {
+    .tool-box {
+        width: 350px;
+    }
+
+    /* REGISTER AND SIGNIN PAGE */
+
+    .register-right {
+        border-top-left-radius: 0%;
+        border-bottom-left-radius: 0%;
+    }
+}
+
+/* Medium */
+@media (min-width:768px) {
+    .tool-box {
+        width: 100%;
+    }
+}
+
+/* Large */
+@media (min-width:992px) {
+
+    /* REGISTER AND SIGNIN PAGE */
+    .register {
+        padding: 60px 0 !important;
+    }
+
+    .register-right {
+        border-top-left-radius: 20% 50%;
+        border-bottom-left-radius: 20% 50%;
+    }
+
+    /* .form-bottom {
+        flex-direction: row;
+        justify-content: space-between;
+    } */
+
+}
